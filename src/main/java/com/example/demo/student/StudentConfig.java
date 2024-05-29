@@ -16,18 +16,17 @@ public class StudentConfig {
     CommandLineRunner commandLineRunner(StudentRepository studentRepository) {
         return args -> {
 
-           /* Student mariam = new Student(
-                    "Mariam",
-                    "mariam.jamal@gmail.com",
-                    LocalDate.of(2000, Month.APRIL, 5),
-                    21);
-            Student john = new Student(
-                    "John",
-                    "jon.jamal@gmail.com",
-                    LocalDate.of(2001, Month.APRIL, 5),
-                    22);
-
-            studentRepository.saveAll(List.of(mariam, john));*/
+//            Student mariam = new Student(
+//                    "Mariam",
+//                    "mariam.jamal@gmail.com",
+//                    LocalDate.of(2000, Month.APRIL, 5));
+//            Student john = new Student(
+//                    "John",
+//                    "jon.jamal@gmail.com",
+//                    LocalDate.of(2001, Month.APRIL, 5)
+//            );
+//
+//            studentRepository.saveAll(List.of(mariam, john));
 
         };
     }
